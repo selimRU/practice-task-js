@@ -29,20 +29,25 @@
 //     }
 // }
 //  var result = odd_even(60)
- var number = 60;
-switch(number){
-    case 41:
-        console.log('odd');
-        break;
-    case 51:
-        console.log('odd');
-        break;
-    case 63:
-        console.log('even');
-        break;
-    case 61:
-        console.log('odd');
-        break;
-        default:
-            console.log('kuhje paini');
-}
+//  var number = 60;
+// switch(number){
+//     case 41:
+//         console.log('odd');
+//         break;
+//     case 51:
+//         console.log('odd');
+//         break;
+//     case 63:
+//         console.log('even');
+//         break;
+//     case 61:
+//         console.log('odd');
+//         break;
+//         default:
+//             console.log('kuhje paini');
+// }
+//ways of getting property value in 3 ways
+
+//(1)object Name.property name
+//(2)object name['property name']
+//(3)propertyName = 'property',console.log(object[propertyName])

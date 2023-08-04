@@ -43,3 +43,16 @@
 // let length = array.length;
 // let result = make_avg(array, length);
 // console.log(result);
+
+function power(number, exponent) {
+    let result = [];
+    for (const num of number) {
+        var powerNumber = Math.pow(num, exponent);
+        result.push(powerNumber)
+    }
+    return result;
+}
+let number = [10, 22, 55]
+let exponent = 4;
+let result = power(number, exponent);
+console.log(result);
